@@ -38,7 +38,7 @@ To get started with BizCardX Data Extraction, follow these steps:
 2. **Run the Application: Execute the main script using Streamlit:
 
    ```bash
-   streamlit run BizCardX_main.py
+   streamlit run OCR_data.py
 3. **Web Interface: A web page will open in your browser featuring three main menu options: HOME, UPLOAD & EXTRACT, and MODIFY. Users can upload business card images for data extraction, storage, and modification.
 
 4. **Data Extraction: Upon uploading a business card, EasyOCR will extract the text, which is then processed by the get_data() function (a custom implementation) to classify details such as:
